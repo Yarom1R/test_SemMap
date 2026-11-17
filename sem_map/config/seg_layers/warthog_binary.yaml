@@ -1,0 +1,22 @@
+name: "Warthog Binary Traversability"
+num_classes: 2
+
+# 255 в наших масках означает ignore.
+raw_to_train_id:
+  0: 0
+  1: 1
+
+categories:
+  - id: 0
+    name: "background"
+    concept: "non-traversable"
+    isthing: false
+    color: [200, 50, 50]
+    traversability: 0.0
+
+  - id: 1
+    name: "traversable"
+    concept: "traversable terrain for Clearpath Warthog"
+    isthing: false
+    color: [50, 200, 50]
+    traversability: 1.0
