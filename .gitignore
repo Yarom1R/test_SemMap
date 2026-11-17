@@ -1,0 +1,14 @@
+.vscode
+
+# Datasets
+data/public_datasets/rellis-3d/
+
+# Training outputs
+scripts/sem_map/training/runs/
+
+# Cached features
+**/features_raw/
+
+# Temporary files
+__pycache__/
+*.pyc
